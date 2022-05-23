@@ -45,41 +45,45 @@ header h1 {
 
 #nav-list a {
     text-decoration: none;
-    border: 1px solid;
     color: inherit;
 }
 
 #nav-list a:hover {
-    border-color: rgb(54, 51, 51);
+    border-color: rgb(58, 56, 56);
+    border: 1px solid;
 }
 
 #nav-list li, header h1 {
-    line-height: 100px;
+    line-height: 75px;
 }
 
 /* section general */
 
-section, footer {
+section {
+    height: 600px;
+    margin-top: 1px;
+    background-color: grey;
     border: 10px  solid  rgb(58, 56, 56);
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 /* about style */
 
 #about-sec {
-    height: 600px;
-    margin-top: 30px;
-    background-color: grey;
+
 }
 
 #about-sec > div {
+    padding: 5px;
     width: 50%;
-    height: 90%;
+    height: 85%;
 }
 
 #about-sec > h2 {
     font-size: 190%;
-    margin: 13px;
+    margin: 10px;
     padding: 5px;
     text-align: center;
     width: 100%;
@@ -101,15 +105,13 @@ section, footer {
 /* timeline style */
 
 #timeline-sec {
-    height: 600px;
-    background-color: grey;
+
 }
 
 /* signup form style */
 
 #signup-form-sec {
-    height: 600px;
-    background-color: grey;
+
 }
 
 /* footer style */
@@ -117,4 +119,19 @@ section, footer {
 footer {
     height: 200px;
     background-color: grey;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #nav-list {
+        float: left;
+        clear: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    #nav-list li, header h1 {
+        line-height: 25px;
+    }
 }
