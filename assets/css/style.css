@@ -29,6 +29,7 @@ header h1 {
     width: 100%;
     height: 300px;
     background: url(../images/night-sky.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 /* navigation styling */
@@ -60,12 +61,13 @@ header h1 {
 /* section general */
 
 section {
-    height: 600px;
-    margin-top: 1px;
-    background-color: grey;
-    border: 10px  solid  rgb(58, 56, 56);
+    height: 1200px;
+    margin: 10px 10px 5px 10px;
+    background-color: #3c3c3c;
+    border: 1px solid rgb(76 76 76);
+    border-radius: 1%;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -75,33 +77,40 @@ section {
 
 }
 
-#about-sec > div {
-    padding: 5px;
-    width: 50%;
-    height: 85%;
-}
-
 #about-sec > h2 {
     font-size: 190%;
     margin: 10px;
-    padding: 5px;
     text-align: center;
+}
+
+#about-sec > div {
+    padding: 5px;
     width: 100%;
+    height: 85%;
+    text-align: center;
+    font-size: 120%;
+    box-sizing: border-box;
 }
 
-#about-right {
-    float: right;
-    height: 90%;
-    background-color: red;
+#about-left-img, #about-right-text {
+    width: 50%;
+    height: 100%;
 }
 
-#about-left {
+#about-left-img {
     float: left;
-    border-radius: 20%;
-    background-color: blue;
     background: url(../images/fairing-release.webp) no-repeat center center;
-
+    background-size: cover;
 }
+
+#about-right-text {
+    float: right;
+}
+
+#about-right-text p {
+    margin: 20px;
+}
+
 /* timeline style */
 
 #timeline-sec {
@@ -118,7 +127,11 @@ section {
 
 footer {
     height: 200px;
-    background-color: grey;
+    background-color: #3c3c3c;
+    border: 10px solid rgb(76 76 76);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1200px) {
@@ -134,4 +147,18 @@ footer {
     #nav-list li, header h1 {
         line-height: 25px;
     }
+
+    section, footer {
+        width: 100%;
+        height: 1200px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    #about-left-img, #about-right-text {
+        float: left;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+    }
+
 }
