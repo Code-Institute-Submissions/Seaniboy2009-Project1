@@ -1,0 +1,30 @@
+
+/* remove default broweser settings */
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 300%;
+}
+
+/* navigation styling */
+
+#nav-list {
+    font-size: 32px;
+}
+
+#nav-list > li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-list a {
+    text-decoration: none;
+    border: 1px solid;
+}
