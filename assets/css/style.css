@@ -32,6 +32,10 @@ header h1 {
     background-size: cover;
 }
 
+i:hover {
+    color: red;
+}
+
 /* navigation styling */
 
 #nav-list {
