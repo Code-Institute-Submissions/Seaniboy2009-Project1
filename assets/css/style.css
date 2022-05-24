@@ -61,7 +61,7 @@ header h1 {
 /* section general */
 
 section {
-    height: 1200px;
+    height: 900px;
     margin: 10px 10px 5px 10px;
     background-color: #3c3c3c;
     border: 1px solid rgb(76 76 76);
@@ -72,11 +72,7 @@ section {
 
 /* about style */
 
-#about-sec {
-
-}
-
-#about-sec > h2 {
+h2 {
     font-size: 190%;
     margin: 10px;
     text-align: center;
@@ -114,12 +110,57 @@ section {
 
 #timeline-img {
     width: 100%;
-    height: 50%;
+    height: 90%;
     background: url(../images/james-web-timeline.jpeg) no-repeat center center;
     background-size: contain;
+    margin: 10px;
+}
+
+#timeline-sec p {
+    font-size: 120%;
 }
 
 /* first images style */
+
+#first-images-sec > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#first-images-one-div, #first-images-two-div {
+    width: 50%;
+    height: 90%;
+    box-sizing: border-box;
+}
+
+#first-images-one-div {
+    float: left;
+}
+
+#first-images-two-div {
+    float: right;
+}
+
+#first-image-one, #first-image-two {
+    width: 100%;
+    height: 100%;
+}
+
+#first-image-one {
+    float: left;
+    margin-top: 20px;
+    background: url(../images/first-image1.png) no-repeat;
+    background-size: contain;
+}
+
+#first-image-two {
+    float: right;
+    padding-top: 20px;
+    background: url(../images/first-image2.jpg) no-repeat center bottom;
+    background-size: contain;
+}
 
 /* signup form style */
 
@@ -186,6 +227,14 @@ footer i:hover {
         height: 50%;
         padding: 0;
     }
+
+    #first-images-one-div, #first-images-two-div {
+        float: left;
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+    
 
 }
 
