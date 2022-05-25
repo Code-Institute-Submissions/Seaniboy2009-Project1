@@ -13,93 +13,95 @@
     <title>James Web Space Telescope</title>
 </head>
 <body>
-    <header>
-        <div id="hero-holder"></div>
-        <div>
-            <h1>James Web Space Telescope <i class="fa-solid fa-satellite"></i></h1>
-            <nav>
-                <ul id="nav-list" aria-label="site navigation">
-                    <li>
-                        <a href="#contact-us">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#signup-form-sec">Signup</a>
-                    </li>
-                    <li>
-                        <a href="#timeline-sec">Timeline</a>
-                    </li>
-                    <li>
-                        <a href="#about-sec">About</a>
-                    </li>
+    <div class="container">
+        <header>
+            <div id="hero-holder"></div>
+            <div>
+                <h1>James Web Space Telescope <i class="fa-solid fa-satellite"></i></h1>
+                <nav>
+                    <ul id="nav-list" aria-label="site navigation">
+                        <li>
+                            <a href="#contact-us">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#signup-form-sec">Signup</a>
+                        </li>
+                        <li>
+                            <a href="#timeline-sec">Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#about-sec">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="about-sec">
+            <h2>About</h2>
+            <div>
+                <div id="about-left-img"></div>
+                <div id="about-right-text">
+                    <h2>About the telescope</h2>
+                    <p>
+                        NASA's James Webb Space Telescope (JWST) is an infrared space observatory that launched on Dec 25, 2021, from ESA's launch site at Kourou in French Guiana, at 7:20 a.m. EST (1220 GMT; 9:20 a.m. local time in Kourou), aboard an Arianespace Ariane 5 rocket.
+                    </p>
+                    <P>
+                        The $10 billion James Webb Space Telescope — NASA's largest and most powerful space science telescope — will probe the cosmos to uncover the history of the universe from the Big Bang to alien planet formation and beyond. It is one of NASA's Great Observatories, huge space instruments that include the likes of the Hubble Space Telescope to peer deep into the cosmos.
+                    </P>
+                    <p>
+                        It took 30 days for the James Webb Space Telescope to travel nearly a million miles (1.5 million kilometers) to its permanent home: a Lagrange point — a gravitationally stable location in space. The telescope arrived at L2, the second sun-Earth Lagrange point on Jan. 24, 2022. L2 is a spot in space near Earth that lies opposite from the sun; this orbit will allow the telescope to stay in line with Earth as it orbits the sun. It has been a popular spot for several other space telescopes, including the Herschel Space Telescope and the Planck Space Observatory.  
+                    </p>
+                    <a href="https://www.space.com/21925-james-webb-space-telescope-jwst.html#:~:text=NASA's%20James%20Webb%20Space%20Telescope%20(JWST)%20is%20an%20infrared%20space,an%20Arianespace%20Ariane%205%20rocket." target="_blank" rel="link to soruce">Source</a>
+                </div>
+            </div>
+        </section>
+        <section id="timeline-sec">
+            <h2>Timeline</h2>
+            <p>From launch to arrival at L2 orbital point was 29days, and a further few months for mirror alignment, the first images can be seen <a href="#first-images-sec" rel="first image secton">below</a> </p>
+            <div id="timeline-img"></div>
+        </section>
+        <section id="first-images-sec">
+            <h2>First Image</h2>
+            <div>
+                <div id="first-images-one-div">
+                    <h3>Image of alignment</h3>
+                    <div id="first-image-one"></div>
+                </div>
+                <div id="first-images-two-div">
+                    <h3>First focused image of star 2MASS J17554042+6551277</h3>
+                    <div id="first-image-two"></div>
+                </div>
+            </div>
+        </section>
+        <section id="signup-form-sec">
+            <h2>Please signup to our newsletter</h2>
+            <div>
+                <form id="form" action="#" method="post">
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" name="fname" class="form-input" required>
+    
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" name="lname" class="form-input" required>
+    
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" class="form-input" required>
+    
+                    <input type="submit" value="To the moon!" id="form-submit">
+                </form>
+            </div>
+        </section>
+        <footer id="contact-us">
+            <div>
+                <h2>Contact us below</h2>
+                <p>Please contact us on one of the below social media platforms | or email is at jameswebbsite@jamesweb.com</p>
+                <ul>
+                    <li><a href="https://en-gb.facebook.com/" rel="facbook" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/" rel="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" rel="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="about-sec">
-        <h2>About</h2>
-        <div>
-            <div id="about-left-img"></div>
-            <div id="about-right-text">
-                <h2>About the telescope</h2>
-                <p>
-                    NASA's James Webb Space Telescope (JWST) is an infrared space observatory that launched on Dec 25, 2021, from ESA's launch site at Kourou in French Guiana, at 7:20 a.m. EST (1220 GMT; 9:20 a.m. local time in Kourou), aboard an Arianespace Ariane 5 rocket.
-                </p>
-                <P>
-                    The $10 billion James Webb Space Telescope — NASA's largest and most powerful space science telescope — will probe the cosmos to uncover the history of the universe from the Big Bang to alien planet formation and beyond. It is one of NASA's Great Observatories, huge space instruments that include the likes of the Hubble Space Telescope to peer deep into the cosmos.
-                </P>
-                <p>
-                    It took 30 days for the James Webb Space Telescope to travel nearly a million miles (1.5 million kilometers) to its permanent home: a Lagrange point — a gravitationally stable location in space. The telescope arrived at L2, the second sun-Earth Lagrange point on Jan. 24, 2022. L2 is a spot in space near Earth that lies opposite from the sun; this orbit will allow the telescope to stay in line with Earth as it orbits the sun. It has been a popular spot for several other space telescopes, including the Herschel Space Telescope and the Planck Space Observatory.  
-                </p>
-                <a href="https://www.space.com/21925-james-webb-space-telescope-jwst.html#:~:text=NASA's%20James%20Webb%20Space%20Telescope%20(JWST)%20is%20an%20infrared%20space,an%20Arianespace%20Ariane%205%20rocket." target="_blank" rel="link to soruce">Source</a>
             </div>
-        </div>
-    </section>
-    <section id="timeline-sec">
-        <h2>Timeline</h2>
-        <p>From launch to arrival at L2 orbital point was 29days, and a further few months for mirror alignment, the first images can be seen <a href="#first-images-sec" rel="first image secton">below</a> </p>
-        <div id="timeline-img"></div>
-    </section>
-    <section id="first-images-sec">
-        <h2>First Image</h2>
-        <div>
-            <div id="first-images-one-div">
-                <h3>Image of alignment</h3>
-                <div id="first-image-one"></div>
-            </div>
-            <div id="first-images-two-div">
-                <h3>First focused image of star 2MASS J17554042+6551277</h3>
-                <div id="first-image-two"></div>
-            </div>
-        </div>
-    </section>
-    <section id="signup-form-sec">
-        <h2>Please signup to our newsletter</h2>
-        <div>
-            <form id="form" action="#" method="post">
-                <label for="fname">First Name</label>
-                <input id="fname" type="text" name="fname" class="form-input" required>
-
-                <label for="lname">Last Name</label>
-                <input id="lname" type="text" name="lname" class="form-input" required>
-
-                <label for="email">Email Address</label>
-                <input id="email" type="email" name="email" class="form-input" required>
-
-                <input type="submit" value="To the moon!" id="form-submit">
-            </form>
-        </div>
-    </section>
-    <footer id="contact-us">
-        <div>
-            <h2>Contact us below</h2>
-            <ul>
-                <li><a href="https://en-gb.facebook.com/" rel="facbook" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/" rel="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.youtube.com/" rel="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
     <!-- script for fonts -->
     <script src="https://kit.fontawesome.com/7e29e2724b.js" crossorigin="anonymous"></script>
 

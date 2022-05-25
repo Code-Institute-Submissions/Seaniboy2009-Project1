@@ -7,3 +7,8 @@ The site is for enthusiastic children and adultes who want to know about the new
 Name of the telescope as well as nav bar top right, also a hero image of the night sky above.
 
 
+## references
+
+space.com - for the information and images
+google.com - for the images
+fontawesome.com - for the font icons

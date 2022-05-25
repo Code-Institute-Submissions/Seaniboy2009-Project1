@@ -10,6 +10,10 @@
 
 body {
     background-color: rgb(58, 56, 56);
+
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -247,7 +251,7 @@ footer i:hover {
     }
 
     footer {
-        height: 50px;
+        height: 150px;
     }
 
     #about-left-img, #about-right-text {
