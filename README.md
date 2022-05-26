@@ -14,7 +14,7 @@ Name of the telescope as well as navigation bar top right, also a hero image of 
     - navigation links to the right (about, timeline, sign-up, contact us)
     - image of the night sky above
 
-![About](../Project1/assets/images/header-nac-section.PNG)
+![Header](../Project1/assets/images/header-nac-section.PNG)
 
 - __About__
 
@@ -36,20 +36,20 @@ Name of the telescope as well as navigation bar top right, also a hero image of 
     - how many days it look to arrive at its orbit location
     - image showing all the deployment stages during the 29days to its orbit
 
-![Timeline](../Project1/assets/images/firstimages-section.PNG)
+![FirstImages](../Project1/assets/images/firstimages-section.PNG)
 
 - __Signup__
 
     - how many days it look to arrive at its orbit location
     - image showing all the deployment stages during the 29days to its orbit
 
-![Timeline](../Project1/assets/images/signup-section.PNG)
+![Signup](../Project1/assets/images/signup-section.PNG)
 
 - __Footer__
 
     - email information as well as social media links.
 
-![Timeline](../Project1/assets/images/timeline-section.PNG)
+![Footer](../Project1/assets/images/Footer.PNG)
 
 ## Deployment
 
@@ -64,14 +64,22 @@ I have run the code though a html and css validation as well as lighthouse to ma
 - HTML
   - Tested html code though [W3C validator](https://validator.w3.org/nu/#textarea)
 - CSS
-  - Tested css code though [W3C validator](https://jigsaw.w3.org/css-validator/validator)
+  - Tested css code though [Jigsaw](https://jigsaw.w3.org/css-validator/validator)
 
 - Spellchecking
     - [Online Spellchecker](https://www.online-spellcheck.com/)
 
 - Lighthouse accessablitly, the accessablity is not 100% because there is no text for the social icons, But there is not suposed to be otherwise this score would be 100%
 
-![Timeline](../Project1/assets/images/performance.PNG)
+![Performance](../Project1/assets/images/performance.PNG)
+
+
+- Responsiveness
+    - Tested through the am i responsive [Am I Responsive](https://ui.dev/amiresponsive)
+
+![AmIResponsive](../Project1/assets/images/responsive.PNG)
+
+## Bugs / Issues
 
 - __Issues__
 
