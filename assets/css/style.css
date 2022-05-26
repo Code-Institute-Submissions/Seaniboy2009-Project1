@@ -245,9 +245,9 @@ footer i:hover {
     }
 
     section, footer {
-        width: 100%;
+        width: 98%;
         height: 1200px;
-        margin: 10px 10px 10px 10px;
+        margin: 10px auto;
     }
 
     footer {
@@ -271,7 +271,6 @@ footer i:hover {
     #form label {
         display: block;
     }
-    
 
 }
 
@@ -290,9 +289,9 @@ footer i:hover {
     }
 
     section, footer {
-        width: 100%;
+        width: 98%;
         height: 1200px;
-        margin: 10px 10px 10px 10px;
+        margin: 10px auto;
     }
 
     footer {
