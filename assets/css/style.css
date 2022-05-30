@@ -95,7 +95,6 @@ h2 {
     float: left;
     width: 100%;
     height: 31%;
-    padding: 0;
 }
 
 .about-right-text a {
@@ -114,11 +113,14 @@ h2 {
 
 .about-sec a {
     margin: 1%;
+    width: 100%;
+    height: 10px;
 }
 
 .about-iframe iframe {
     width: 100%;
     height: 100%;
+    margin-top: 10px;
 }
 
 /* timeline style */
@@ -278,7 +280,6 @@ footer iframe {
         font-size: 90%;
     }
 
-
     .nav-list {
         float: left;
         top: 0;
@@ -367,8 +368,7 @@ footer iframe {
     .nav-list>li {
         margin-left: 1%;
         margin-right: 2%;
-        float: left;
-        font-size: 99%;
+        font-size: 120%;
         text-align: left;
     }
 
