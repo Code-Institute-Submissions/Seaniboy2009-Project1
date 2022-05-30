@@ -346,7 +346,7 @@ footer iframe {
     }
 
     header h1 {
-        margin: 5%;
+        margin-top: 10%;
         font-size: 95%;
         float: left;
     }
@@ -358,7 +358,7 @@ footer iframe {
     .nav-list {
         top: 0;
         left: 0;
-        height: 8%;
+        height: 6%;
         width: 100%;
         background: #3c3c3c;
         position: fixed;
