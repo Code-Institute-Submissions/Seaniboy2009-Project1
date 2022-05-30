@@ -71,7 +71,7 @@ header h1 {
 
 /* section general */
 section {
-    height: 1000px;
+    height: 1200px;
     margin: 1%;
     background-color: #3c3c3c;
     border: 1px solid rgb(76 76 76);
@@ -91,11 +91,10 @@ h2 {
     text-align: center;
 }
 
-.about-left-img,
-.about-right-text {
+.about-sec div {
     float: left;
     width: 100%;
-    height: 49%;
+    height: 31%;
     padding: 0;
 }
 
@@ -111,6 +110,11 @@ h2 {
 .about-left-img {
     background: url(../images/fairing-release.webp) no-repeat center center;
     background-size: cover;
+}
+
+.about-iframe iframe {
+    width: 100%;
+    height: 100%;
 }
 
 /* timeline style */
@@ -266,6 +270,7 @@ footer iframe {
         font-size: 90%;
     }
 
+
     .nav-list {
         float: left;
         top: 0;
@@ -299,7 +304,7 @@ footer iframe {
         column-gap: 0;
     }
 
-    .timeline-holder > div {
+    .timeline-holder>div {
         width: 100%;
         height: 23%;
     }
@@ -343,7 +348,7 @@ footer iframe {
 
     .nav-list {
         top: 0;
-        height: 5%;
+        height: 3%;
         width: 100%;
         background: #3c3c3c;
         position: fixed;
@@ -362,6 +367,10 @@ footer iframe {
         width: 98%;
         height: 1200px;
         margin: 10px auto;
+    }
+
+    .about-sec {
+        height: 1550px;
     }
 
     footer {
