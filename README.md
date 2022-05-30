@@ -14,7 +14,7 @@ Name of the telescope as well as navigation bar top right, also a hero image of 
     - navigation links to the right (about, timeline, sign-up, contact us)
     - image of the night sky above
 
-![Header](assets/images/header-nac-section.PNG)
+![Header](docs/wireframe/header-nac-section.PNG)
 
 - __About__
 
@@ -22,34 +22,34 @@ Name of the telescope as well as navigation bar top right, also a hero image of 
     - how much it has cost to design, build and launch.
     - how much time and distance it has traveled.
 
-![About](../Project1/assets/images/about-section.PNG)
+![About](docs/wireframe/about-section.PNG)
 
 - __Timeline__
 
     - how many days it look to arrive at its orbit location
     - image showing all the deployment stages during the 29days to its orbit
 
-![Timeline](../Project1/assets/images/timeline-section.PNG)
+![Timeline](docs/wireframe/timeline-section.PNG)
 
 - __First images__
 
     - how many days it look to arrive at its orbit location
     - image showing all the deployment stages during the 29days to its orbit
 
-![FirstImages](../Project1/assets/images/firstimages-section.PNG)
+![FirstImages](docs/wireframe/firstimages-section.PNG)
 
 - __Signup__
 
     - how many days it look to arrive at its orbit location
     - image showing all the deployment stages during the 29days to its orbit
 
-![Signup](../Project1/assets/images/signup-section.PNG)
+![Signup](docs/wireframe/signup-section.PNG)
 
 - __Footer__
 
     - email information as well as social media links.
 
-![Footer](../Project1/assets/images/Footer.PNG)
+![Footer](docs/wireframe/footer-section.PNG)
 
 ## Deployment
 
@@ -71,13 +71,13 @@ I have run the code though a html and css validation as well as lighthouse to ma
 
 - Lighthouse accessablitly, the accessablity is not 100% because there is no text for the social icons, But there is not suposed to be otherwise this score would be 100%
 
-![Performance](../Project1/assets/images/performance.PNG)
+![Performance](docs/wireframe/performance.PNG)
 
 
 - Responsiveness
     - Tested through the am i responsive [Am I Responsive](https://ui.dev/amiresponsive)
 
-![AmIResponsive](../Project1/assets/images/responsive.PNG)
+![AmIResponsive](docs/wireframe/responsive.PNG)
 
 ## Bugs / Issues
 
