@@ -112,6 +112,10 @@ h2 {
     background-size: cover;
 }
 
+.about-sec a {
+    margin: 1%;
+}
+
 .about-iframe iframe {
     width: 100%;
     height: 100%;
@@ -264,6 +268,10 @@ footer iframe {
         font-size: 110%;
     }
 
+    h1 {
+        margin-top: 2%;
+    }
+
     p {
         text-align: left;
         margin-left: 5%;
@@ -282,7 +290,7 @@ footer iframe {
 
     .nav-list li,
     header h1 {
-        line-height: 25px;
+        line-height: 30px;
         text-align: center;
     }
 
@@ -337,7 +345,7 @@ footer iframe {
     }
 
     header h1 {
-        margin: 3%;
+        margin: 5%;
         font-size: 95%;
         float: left;
     }
@@ -349,7 +357,7 @@ footer iframe {
     .nav-list {
         top: 0;
         left: 0;
-        height: 4%;
+        height: 5%;
         width: 100%;
         background: #3c3c3c;
         position: fixed;
@@ -360,7 +368,7 @@ footer iframe {
         margin-left: 1%;
         margin-right: 2%;
         float: left;
-        font-size: 90%;
+        font-size: 99%;
         text-align: left;
     }
 
