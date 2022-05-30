@@ -14,7 +14,7 @@ Name of the telescope as well as navigation bar top right, also a hero image of 
     - navigation links to the right (about, timeline, sign-up, contact us)
     - image of the night sky above
 
-![Header](../Project1/assets/images/header-nac-section.PNG)
+![Header](assets/images/header-nac-section.PNG)
 
 - __About__
 
@@ -84,6 +84,8 @@ I have run the code though a html and css validation as well as lighthouse to ma
 - __Issues__
 
     - Had a lot of bugs with the margin and container when scaling up and down, it to experiment a lot with with % and margins to get it working and looking good.
+    
+    - gitpod images for this document are not working on github
 
 ## Credits
 
