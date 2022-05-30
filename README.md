@@ -87,6 +87,8 @@ I have run the code though a html and css validation as well as lighthouse to ma
     
     - gitpod images for this document are not working on github
 
+    - text alignment and margins took me a while to fix and resolve for all sections, mostly so they looked nice
+
 ## Credits
 
 - __References__
