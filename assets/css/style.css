@@ -358,7 +358,7 @@ footer iframe {
     .nav-list {
         top: 0;
         left: 0;
-        height: 10%;
+        height: 8%;
         width: 100%;
         background: #3c3c3c;
         position: fixed;
@@ -366,10 +366,11 @@ footer iframe {
     }
 
     .nav-list>li {
+        float: right;
         margin-left: 1%;
-        margin-right: 2%;
-        font-size: 120%;
-        text-align: left;
+        margin-right: 1%;
+        font-size: 115%;
+        text-align: center;
     }
 
     section,
