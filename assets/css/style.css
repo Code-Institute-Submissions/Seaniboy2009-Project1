@@ -280,6 +280,10 @@ footer iframe {
         font-size: 90%;
     }
 
+    .hero-holder {
+        margin-top: 20px;
+    }
+
     .nav-list {
         float: left;
         top: 0;
