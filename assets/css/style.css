@@ -94,7 +94,6 @@ h2 {
 .about-sec div {
     float: left;
     width: 100%;
-    height: 31%;
 }
 
 .about-right-text a {
@@ -117,10 +116,19 @@ h2 {
     height: 10px;
 }
 
+.about-source {
+    margin-top: 2%;
+}
+
+.about-iframe {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+
 .about-iframe iframe {
     width: 100%;
     height: 100%;
-    margin-top: 10px;
 }
 
 /* timeline style */
@@ -272,6 +280,9 @@ footer iframe {
 
     h1 {
         margin-top: 2%;
+        line-height: 35px;
+        text-align: center;
+        font-size: 150%;
     }
 
     p {
@@ -293,10 +304,10 @@ footer iframe {
         position: fixed;
     }
 
-    .nav-list li,
-    header h1 {
-        line-height: 30px;
+    .nav-list li {
+        line-height: 35px;
         text-align: center;
+        font-size: 120%;
     }
 
     section,
@@ -350,7 +361,7 @@ footer iframe {
     }
 
     header h1 {
-        margin-top: 10%;
+        margin-top: 15%;
         font-size: 95%;
         float: left;
     }
@@ -371,21 +382,18 @@ footer iframe {
 
     .nav-list>li {
         float: right;
+        line-height: 50px;
         margin-left: 1%;
         margin-right: 1%;
-        font-size: 115%;
+        font-size: 105%;
         text-align: center;
     }
 
     section,
     footer {
         width: 98%;
-        height: 1200px;
+        height: 720px;
         margin: 10px auto;
-    }
-
-    .about-sec {
-        height: 1550px;
     }
 
     footer {
