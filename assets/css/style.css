@@ -295,6 +295,7 @@ footer iframe {
         margin-top: 20px;
     }
 
+
     .nav-list {
         float: left;
         top: 0;
@@ -387,6 +388,10 @@ footer iframe {
         margin-right: 1%;
         font-size: 105%;
         text-align: center;
+    }
+
+    .about-iframe {
+        height: 20%;
     }
 
     section,
