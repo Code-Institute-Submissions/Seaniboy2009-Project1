@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(58, 56, 56);
+    background-color: #383838;
 }
 
 .container {
@@ -16,14 +16,14 @@ body {
 }
 
 header {
-    margin: 25px 10px 75px 10px;
+    margin: 3% 1% 5% 1%;
 }
 
 header h1 {
     font-size: 300%;
     float: left;
     display: block;
-    margin-left: 30px
+    margin-left: 1%
 }
 
 p {
@@ -71,10 +71,9 @@ header h1 {
 
 /* section general */
 section {
-    height: 1200px;
     margin: 1%;
     background-color: #3c3c3c;
-    border: 1px solid rgb(76 76 76);
+    border: 1px solid #4C4C4C;
     border-radius: 1%;
     text-align: center;
     overflow: hidden;
@@ -127,16 +126,12 @@ h2 {
     margin-top: 5%;
 }
 
-.about-iframe iframe {
+.about-iframe>iframe {
     width: 100%;
-    height: 100%;
+    height: 450px;
 }
 
 /* timeline style */
-#timeline-sec {
-    height: 1200px;
-}
-
 #timeline-sec p {
     display: inline-block;
 }
@@ -148,11 +143,6 @@ h2 {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-}
-
-.timeline-holder>div {
-    width: 100%;
-    height: 40%;
 }
 
 #timeline-sec p {
@@ -220,10 +210,9 @@ h2 {
 
 /* footer style */
 footer {
-    height: 250px;
-    margin: 10px 10px 5px 10px;
+    margin: 1%;
     background-color: #3c3c3c;
-    border: 1px solid rgb(76 76 76);
+    border: 1px solid #4C4C4C;
     border-radius: 1%;
     text-align: center;
     overflow: hidden;
@@ -246,10 +235,10 @@ footer p {
 }
 
 footer li {
-    margin-top: 10px;
+    margin-top: 1px;
     display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 3px;
     box-sizing: border-box;
 }
 
@@ -267,6 +256,12 @@ footer i:hover {
 footer iframe {
     height: 30%;
     width: 100%;
+}
+
+.img-holder {
+    height: 300px;
+    padding: 15%;
+    border: 5px solid #3c3c3c;
 }
 
 @media screen and (max-width: 1200px) {
@@ -289,7 +284,7 @@ footer iframe {
     p {
         text-align: left;
         margin-left: 5%;
-        font-size: 90%;
+        font-size: 110%;
     }
 
     .hero-holder {
@@ -313,15 +308,15 @@ footer iframe {
         font-size: 120%;
     }
 
+    .about-iframe>iframe {
+        width: 100%;
+        height: 250px;
+    }
+
     section,
     footer {
         width: 98%;
-        height: 1200px;
         margin: 10px auto;
-    }
-
-    footer {
-        height: 200px;
     }
 
     #timeline-sec div {
@@ -329,11 +324,6 @@ footer iframe {
         line-height: 0;
         column-count: 1;
         column-gap: 0;
-    }
-
-    .timeline-holder>div {
-        width: 100%;
-        height: 23%;
     }
 
     form label {
@@ -354,6 +344,10 @@ footer iframe {
         display: inline-block;
     }
 
+    .img-holder {
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -364,13 +358,13 @@ footer iframe {
     }
 
     header h1 {
-        margin-top: 15%;
         font-size: 95%;
         float: left;
     }
 
     .hero-holder {
         height: 100%;
+        margin-top: 20%;
     }
 
     .nav-list {
@@ -400,13 +394,7 @@ footer iframe {
     section,
     footer {
         width: 98%;
-        height: 1000px;
-        margin: 10px auto;
-    }
-
-    footer {
-        height: 20%;
-        width: 100%;
+        margin: 1% auto;
     }
 
     footer li {
