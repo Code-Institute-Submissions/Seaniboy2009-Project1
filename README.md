@@ -51,13 +51,6 @@ The site is for enthusiastic children and adults who want to know about the new 
 
 ![Footer](docs/wireframe/footer-section.PNG)
 
-## Deployment
-
-I have used GitHub and Gitpod to create and version control my project, I have also then used GitHub pages to deploy my project to a live environment [Live version](https://seaniboy2009.github.io/Project1/).
-
- - Deployemnt from gitpot to git hub using, git add, commit and push.
- - Deployment to live using github pages.
-
 ## Testing
 
 I have tested my site for 3 resolution, 2000px, 1200px and 720px, these resolutions are part of the responsiveness i have added to the CSS.
@@ -94,6 +87,13 @@ I have run the code though a html and css validation as well as lighthouse to ma
     - tested on phones, iphone se, galaxy 8+ 
 
 ![AmIResponsive](docs/wireframe/responsive.PNG)
+
+## Deployment
+
+I have used GitHub and Gitpod to create and version control my project, I have also then used GitHub pages to deploy my project to a live environment [Live version](https://seaniboy2009.github.io/Project1/).
+
+ - Deployemnt from gitpot to github using, git add, commit and push to github.
+ - Deployment to live using github pages, settings on the project > pages > branch: main then save, allowed 5 minutes for the page to go live.
 
 ## Credits
 
