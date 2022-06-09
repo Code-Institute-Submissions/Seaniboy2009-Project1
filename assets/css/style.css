@@ -90,10 +90,10 @@ h2 {
     text-align: center;
 }
 
-.about-sec div {
+/* .about-sec div {
     float: left;
     width: 100%;
-}
+} */
 
 .about-right-text a {
     font-size: 120%;
@@ -136,6 +136,7 @@ h2 {
     display: inline-block;
 }
 
+/* this is for containing the images */
 .timeline-holder {
     height: 100%;
     width: 100%;
@@ -192,6 +193,7 @@ h2 {
     border-color: #ffffff;
 }
 
+/* the form submit button */
 #form-submit {
     text-align: center;
     font-size: 130%;
@@ -261,6 +263,12 @@ footer iframe {
 .img-holder {
     height: 300px;
     padding: 15%;
+    border: 5px solid #3c3c3c;
+}
+
+.img-holder-large {
+    height: 150px;
+    padding: 7%;
     border: 5px solid #3c3c3c;
 }
 
