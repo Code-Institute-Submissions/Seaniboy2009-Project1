@@ -96,12 +96,13 @@ I have used GitHub and Gitpod to create and version control my project, I have a
 - __References__
 
 - media
-    - Space.com - for images
-    - Google.com - for images
-    - Youtube.com - for launch video
+    - Space.com - for images.
+    - Google.com - for images.
+    - Youtube.com - for launch video.
 
 - Text/Information
-    - Space.com - for information about the telescope
+    - Space.com - for information about the telescope.
 
 - Text/Fonts
-    - Fontawesome.com - for the font icons
+    - Fontawesome.com - for the font icons.
+    - https://tailwindcss.com/docs/screen-readers - for hiding text for the social media links, but so its still accessable for screen-reader.
